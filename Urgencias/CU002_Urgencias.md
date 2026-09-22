@@ -12,7 +12,24 @@ Gestionar la atención clínica de un paciente en urgencias.
 4. Médico evalúa paciente.
 5. Se solicitan exámenes.
 6. Se determina alta u hospitalización.
+# TC002 Atención en Urgencias
+
+## Objetivo
+
+Validar el flujo de atención de urgencias.
+
+## Precondiciones
+
+- Paciente registrado.
+- Episodio de atención abierto.
+
+## Pasos
+
+1. Registrar triage.
+2. Asignar categoría de riesgo.
+3. Registrar atención médica.
+4. Solicitar exámenes.
 
 ## Resultado Esperado
 
-Paciente atendido correctamente y episodio clínico registrado.
+Atención registrada correctamente y exámenes solicitados.
