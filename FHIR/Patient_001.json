@@ -1,21 +1,11 @@
 {
-2
 "resourceType": "Patient",
-3
 "id": "11111111-1",
-4
 "active": true,
-5
 "name": [
-6
 {
-7
 "family": "Perez",
-8
 "given": ["Juan"]
-9
 }
-10
 ]
-11
 }
