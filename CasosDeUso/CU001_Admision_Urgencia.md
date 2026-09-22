@@ -1,23 +1,29 @@
 # CU001 Admisión de Paciente
-2
- 
-3
+
 ## Actor
-4
 Administrativo de Admisión
-5
  
-6
+## Objetivo
+Registrar un paciente en el HIS.
+
 ## Flujo
-7
- 
-8
-1. Paciente llega al hospital.
-9
-2. Se busca RUN.
-10
-3. Se registra paciente.
-11
-4. Se crea episodio.
-12
-5. Se genera ADT A01.
+
+1. Paciente llega a Urgencias.
+2. Se busca por RUN.
+3. Si no existe, se crea.
+4. Se genera episodio.
+5. Se emite mensaje ADT A01.
+
+CU001 Admisión de Paciente
+Actor
+Administrativo de Admisión
+
+Objetivo
+Registrar un paciente en el HIS.
+
+Flujo
+Paciente llega a Urgencias.
+Se busca por RUN.
+Si no existe, se crea.
+Se genera episodio.
+Se emite mensaje ADT A01.
