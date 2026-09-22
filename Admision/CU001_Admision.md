@@ -16,3 +16,14 @@ Registrar un paciente en el sistema.
 ## Resultado Esperado
 
 Paciente registrado correctamente y mensaje ADT A01 generado.
+## Mensajes Asociados
+
+- HL7 ADT A01
+
+## Recursos FHIR Asociados
+
+- Patient
+
+## Casos de Prueba Asociados
+
+- TC001_Admision
